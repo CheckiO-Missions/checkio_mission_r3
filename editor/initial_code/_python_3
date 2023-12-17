@@ -1,11 +1,11 @@
-def riichi_mahjong_tempay(hand: list) -> int:
+def riichi_mahjong_tiles_to_win(hand: list) -> int:
     # your code here
     return 0
 
 print("Example:")
-print(riichi_mahjong_tempay([]))
+print(riichi_mahjong_tiles_to_win([]))
 
 # These "asserts" are used for self-checking and not for an auto-testing
-assert riichi_mahjong_tempay([]) == 5
-assert riichi_mahjong_tempay([]) == 12
+assert riichi_mahjong_tiles_to_win([]) == 5
+assert riichi_mahjong_tiles_to_win([]) == 12
 print("Now, what about 'Check solution'?")
