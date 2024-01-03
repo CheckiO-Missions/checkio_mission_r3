@@ -15,7 +15,7 @@ print(riichi_mahjong_shanten(['s1', 's2', 's3', 's4', 's5', 's6', 's7', 's8', 's
 # These "asserts" are used for self-checking and not for an auto-testing
 {% block tests %}
 {% for t in tests %}
-assert {% block call %}sum_two({{t.input|p_args}})
+assert {% block call %}riichi_mahjong_shanten({{t.input|p_args}})
 {% endblock %} == {% block result %}{{t.answer|p}}{% endblock %}{% endfor %}
 {% endblock %}
 
