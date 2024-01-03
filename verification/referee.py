@@ -11,7 +11,7 @@ api.add_listener(
         tests=TESTS,
         # checker=to_list,
         function_name={
-            "python": "riichi_mahjong_tiles_to_win"
+            "python": "riichi_mahjong_shanten"
         },
         cover_code={
             'python-3': {}
