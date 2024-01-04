@@ -33,14 +33,19 @@ TESTS = {
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": [],
+            "answer": None,
+            "explanation": "I speaked you about thoroughly check. And?"
         },
         {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
+            "input": ['incorrect string'],
+            "answer": None,
+            "explanation": "Sorry, your solution is incomplete yet."
         },
+        {
+            "input": [6, 66, 666],
+            "answer": None,
+            "explanation": "This is absolutely wrong input data. You should prevent errors."
+        }
     ]
 }
