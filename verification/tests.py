@@ -53,37 +53,37 @@ TESTS = {
             "explanation": "Oh, no!"
         },
         {
-            "input": ['s1', 's1', 's1', 's2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4', 's5', 's0'],
+            "input": [['s5', 's1', 's4', 's4', 's3', 's2', 's2', 's0', 's1', 's3', 's3', 's1', 's2', 's4']],
             "answer": None,
             "explanation": "Alas, there is no tile s0 in mahjong..."
         },
         {
-            "input": ['s1', 's1', 's1', 's1', 's1', 's2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4'],
+            "input": ['s4', 's2', 's1', 's2', 's3', 's4', 's1', 's3', 's1', 's4', 's1', 's2', 's1', 's3'],
             "answer": None,
             "explanation": "There can't be FIVE same tiles..."
         },
         {
-            "input": ['s2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4', 's5', 's5', 's6', 's6', 's6'],
+            "input": ['s4', 's2', 's4', 's5', 's5', 's2', 's4', 's6', 's2', 's3', 's3', 's3', 's6', 's6'],
             "answer": 0,
             "explanation": "Yes, this hand is ALREADY winning. And it cost very, very much..."
         },
         {
-            "input": ['s1', 's1', 's2', 's2', 's3', 's3', 's4', 's4', 's5', 's5', 's6', 's6', 's7', 'dg'],
+            "input": ['s3', 's3', 'dg', 's6', 's4', 's1', 's6', 's7', 's2', 's2', 's5', 's4', 's1', 's5'],
             "answer": 1,
             "explanation": "Chitoy. In tempay. What? You didn't think about it? ¯\_(ツ)_/¯"
         },
         {
-            "input": ['s1', 's9', 'p1', 'p9', 'm1', 'm9', 'dg', 'dw', 'dr', 'ww', 'we', 'ws', 'wn', 'p5'],
+            "input": ['p1', 'we', 'ws', 'wn', 'm1', 'm9', 's9', 'dg', 's1', 'p9', 'dw', 'dr', 'p5', 'ww'],
             "answer": 1,
             "explanation": "Kokushi muso. Also in tempay. I'm sorry that you forgot about it."
         },
         {
-            "input": ['s1', 's9', 'p1', 'p9', 'm1', 'm9', 'dg', 'dw', 'dr', 'ww', 'we', 'ws', 'wn', 'ha'],
+            "input": ['dw', 'dr', 'we', 'dg', 's1', 'ww', 'm9', 'wn', 'm1', 'p1', 's9', 'ws', 'ha', 'p9'],
             "answer": 1,
             "explanation": "This is NOT kokushi. This is not a right hand at all. Don't relax you mind."
         },
         {
-            "input": ['m1', 'm2', 'm3', 'p2', 'p3', 'p7', 'p8', 's4', 's5', 's6', 's7', 's8', 's9', 'dw'],
+            "input": ['m1', 's7', 's5', 'm2', 'p7', 'p8', 's9', 's6', 's4', 'p3', 'm3', 'p2', 'dw', 's8'],
             "answer": 2,
             "explanation": "Ishanten. What did you say? I already checked it?"
         }
