@@ -64,8 +64,13 @@ TESTS = {
         },
         {
             "input": ['s2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4', 's5', 's5', 's6', 's6', 's6'],
-            "answer": None,
+            "answer": 0,
             "explanation": "Yes, this hand is ALREADY winning. And it cost very, very much..."
+        },
+        {
+            "input": ['s1, 's1', 's2', 's2', 's3', 's3', 's4', 's4', 's5', 's5', 's6', 's6', ],
+            "answer": None,
+            "explanation": "Chitoy. In tempay. What? You didn't think about it? ¯\_(ツ)_/¯"
         },
     ]
 }
