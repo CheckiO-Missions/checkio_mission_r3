@@ -58,9 +58,14 @@ TESTS = {
             "explanation": "Alas, there is no tile s0 in mahjong..."
         },
         {
-            "input": ['s1', 's1', 's1', 's1', 's2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4', 's5'],
+            "input": ['s1', 's1', 's1', 's1', 's1', 's2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4'],
             "answer": None,
             "explanation": "There can't be FIVE same tiles..."
+        },
+        {
+            "input": ['s2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4', 's5', 's5', 's6', 's6', 's6'],
+            "answer": None,
+            "explanation": "Yes, this hand is ALREADY winning. And it cost very, very much..."
         },
     ]
 }
