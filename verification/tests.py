@@ -76,6 +76,16 @@ TESTS = {
             "input": ['s1', 's9', 'p1', 'p9', 'm1', 'm9', 'dg', 'dw', 'dr', 'ww', 'we', 'ws', 'wn', 'p5'],
             "answer": 1,
             "explanation": "Kokushi muso. Also in tempay. I'm sorry that you forgot about it."
+        },
+        {
+            "input": ['s1', 's9', 'p1', 'p9', 'm1', 'm9', 'dg', 'dw', 'dr', 'ww', 'we', 'ws', 'wn', 'ha'],
+            "answer": 1,
+            "explanation": "This is NOT kokushi. This is not a right hand at all. Don't relax you mind."
+        },
+        {
+            "input": ['m1', 'm2', 'm3', 'p2', 'p3', 'p7', 'p8', 's4', 's5', 's6', 's7', 's8', 's9', 'dw'],
+            "answer": 2,
+            "explanation": "Ishanten. What did you say? I already checked it?"
         }
     ]
 }
