@@ -15,6 +15,5 @@ api.add_listener(
         },
         cover_code={
             'python-3': {}
-            }
         }
     ).on_ready)
