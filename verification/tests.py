@@ -69,8 +69,13 @@ TESTS = {
         },
         {
             "input": ['s1, 's1', 's2', 's2', 's3', 's3', 's4', 's4', 's5', 's5', 's6', 's6', 's7', 'dg'],
-            "answer": None,
+            "answer": 1,
             "explanation": "Chitoy. In tempay. What? You didn't think about it? ¯\_(ツ)_/¯"
         },
+        {
+            "input": ['s1', 's9', 'p1', 'p9', 'm1', 'm9', 'dg', 'dw', 'dr', 'ww', 'we', 'ws', 'wn', 'p5'],
+            "answer": 1,
+            "explanation": "Kokushi muso. Also in tempay. I'm sorry that you forgot about it."
+        }
     ]
 }
