@@ -46,6 +46,21 @@ TESTS = {
             "input": [6, 66, 666],
             "answer": None,
             "explanation": "This is absolutely wrong input data. You should prevent errors."
-        }
+        },
+        {
+            "input": ['s1', 's1', 's1', 's2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4', 's5', 'oh, no...'],
+            "answer": None,
+            "explanation": "Oh, no!"
+        },
+        {
+            "input": ['s1', 's1', 's1', 's2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4', 's5', 's0'],
+            "answer": None,
+            "explanation": "Alas, there is no tile s0 in mahjong..."
+        },
+        {
+            "input": ['s1', 's1', 's1', 's1', 's2', 's2', 's2', 's3', 's3', 's3', 's4', 's4', 's4', 's5'],
+            "answer": None,
+            "explanation": "There can't be FIVE same tiles..."
+        },
     ]
 }
