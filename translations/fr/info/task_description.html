@@ -1,0 +1,30 @@
+<p>Voici la troisième mission de la série sur le jeu riichi mahjong. Cette mission est plus difficile que les précédentes, alors préparez-vous.</p>
+
+<p>Cette fois, votre tâche consiste à déterminer le plus petit nombre de tuiles de la main que vous devez remplacer pour la rendre gagnante. En d'autres termes, vous devez déterminer ce que l'on appelle le nombre de shanten. N'oubliez pas qu'il existe non seulement le modèle de main standard "quatre séries et une paire", mais aussi le chitoitsu et le kokushi-muso.</p>
+
+<p>Pour des raisons de simplicité, la possibilité de jeux ouverts est omise. Cependant, vous devez vérifier soigneusement les données saisies et, si elles ne sont pas valides, renvoyer None.</p>
+
+<p>Voici des exemples explicatifs:</p>
+
+<p>Dans la main suivante, vous ne devez remplacer qu'une seule tuile ("tempai"):</p>
+
+<pre class="brush: python">['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's5', 'we', 'we', 'dw', 'dw']</pre>
+
+<p>Dans la main suivante, vous devez remplacer une seule tuile ("tempai"): et celle-ci a trois tuiles à remplacer:</p>
+
+<pre class="brush: python">['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's6', 'we', 'ws', 'dw', 'dw']</pre>
+
+<p>
+   <strong>Données d'entrée: </strong> Un argument - une liste de chaînes encodant les tuiles.
+</p>
+
+<p>
+   <strong>Données de sortie: </strong> Une variable de type int: le nombre de shanten dans la main.
+</p>
+
+<p> 
+    <strong>Exemple: </strong>
+</p>
+<pre class="brush: python">
+    riichi_mahjong_shanten(['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's5', 'we', 'we', 'dw', 'dw']) == 1
+</pre>
