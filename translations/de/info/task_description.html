@@ -1,0 +1,30 @@
+<p>Dies ist die dritte Mission in der Serie über das Spiel Riichi Mahjong. Diese Mission ist schwieriger als die vorherigen, also seien Sie darauf vorbereitet.</p>
+
+<p>Diesmal besteht Ihre Aufgabe darin, die kleinste Anzahl von Steinen in der Hand zu bestimmen, die Sie ersetzen müssen, um sie zu einem Gewinn zu machen. Mit anderen Worten: Sie müssen die so genannte Shanten-Zahl bestimmen. Denken Sie daran, dass es nicht nur das Standard-Handmuster "vier Sätze und ein Paar" gibt, sondern auch Chitoitsu und Kokushi-Muso.</p>
+
+<p>Der Einfachheit halber wird die Möglichkeit von offenen Sätzen weggelassen. Sie sollten die Eingabedaten jedoch gründlich überprüfen und, falls sie ungültig sind, None zurückgeben.</p>
+
+<p>Hier sind die erklärenden Beispiele:</p>
+
+<p>In der nächsten Hand müssen Sie nur einen Spielstein ("tempai") ersetzen:</p>
+
+<pre class="brush: python">['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's5', 'we', 'we', 'dw', 'dw']</pre>
+
+<p>Und in diesem Fall sind drei Kacheln zu ersetzen:</p>
+
+<pre class="brush: python">['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's6', 'we', 'ws', 'dw', 'dw']</pre>
+
+<p>
+   <strong>Eingabedaten: </strong> Ein Argument - eine Liste von Strings, die Kacheln kodieren.
+</p>
+
+<p>
+   <strong>Ausgabedaten: </strong> Eine Variable vom Typ int: die Anzahl der Shanten in der Hand.
+</p>
+
+<p> 
+    <strong>Beispiel: </strong>
+</p>
+<pre class="brush: python">
+    riichi_mahjong_shanten(['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's5', 'we', 'we', 'dw', 'dw']) == 1
+</pre>
