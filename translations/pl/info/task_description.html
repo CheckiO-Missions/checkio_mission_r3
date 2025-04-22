@@ -1,0 +1,30 @@
+<p>Jest to trzecia misja z serii o grze riichi mahjong. Ta misja jest trudniejsza niż poprzednie, więc proszę się przygotować.</p>
+
+<p>Tym razem Państwa zadaniem jest określenie najmniejszej liczby płytek w układzie, które należy wymienić, aby stał się on zwycięski. Innymi słowy, konieczne jest określenie tak zwanej liczby shanten. Proszę pamiętać, że istnieje nie tylko standardowy układ "cztery zestawy i para", ale także chitoitsu i kokushi-muso.</p>
+
+<p>Dla uproszczenia pominięto możliwość otwartych zestawów. Należy jednak dokładnie sprawdzić dane wejściowe i, jeśli są nieprawidłowe, zwrócić None.</p>
+
+<p>Poniżej znajdują się przykłady wyjaśniające:</p>
+
+<p>W następnym rozdaniu należy wymienić tylko jedną płytkę ("tempai"):</p>
+
+<pre class="brush: python">['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's5', 'we', 'we', 'dw', 'dw']</pre>
+
+<p>A ten ma trzy kafelki do zastąpienia:</p>
+
+<pre class="brush: python">['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's6', 'we', 'ws', 'dw', 'dw']</pre>
+
+<p>
+   <strong>Dane wejściowe: </strong> Jeden argument - lista łańcuchów kodujących kafelki.
+</p>
+
+<p>
+   <strong>Dane wyjściowe: </strong> Zmienna typu int: liczba shantenów w układzie.
+</p>
+
+<p> 
+    <strong>Przykład: </strong>
+</p>
+<pre class="brush: python">
+    riichi_mahjong_shanten(['p4', 'p5', 'p6', 'm1', 'm1', 'm1', 's2', 's3', 's4', 's5', 'we', 'we', 'dw', 'dw']) == 1
+</pre>
